@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f51a967b;
+}
+/*barre de nav*/
+nav{
+    background-color:#f5225af9 ;
+    border-radius: 4px;
+}
+
+.Titre{
+    text-align: center;
+    font-size: 3.2em;
+    font-weight: 900;
+    color:#D917FA;
+    -webkit-text-stroke: 0.5px rgb(11, 11, 11);
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+}   
+.nav-item{
+    padding-left: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.log-reg-item{
+    padding-left: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+/* contenu index.php */
+.contenaire-box-center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #75122cf9;
+    width: 1200px;
+    height: 750px;
+    border-radius: 40px;
+    margin-top: 2%;
+    -webkit-text-stroke: 0.5px rgb(11, 11, 11);
+}
+.contenaire-box-center p{
+    font-size: 1.9em;
+    color: #16F5B2 ;
+}
+.logo{
+    margin-top: 45px;
+}
+/* formulaire login/register */
+
+.box-login-regist {
+    border: 1px solid #c4c4c4;
+    padding: 30px 25px 10px 25px;
+    background: rgb(255, 254, 254);
+    margin: 30px auto;
+    width: 370px;
+  }
+  h1.box-logo a {
+    text-decoration:none;
+  }
+  h1.box-title {
+    color: #AEAEAE;
+    background: #f8f8f8;
+    font-weight: 300;
+    padding: 15px 25px;
+    line-height: 30px;
+    font-size: 25px;
+    text-align:center;
+    margin: -27px -26px 26px;
+  }
+  .box-button {
+    border-radius: 5px;
+    background: #d2483c;
+    text-align: center;
+    cursor: pointer;
+    font-size: 19px;
+    width: 100%;
+    height: 51px;
+    padding: 0;
+    color: #fff;
+    border: 0;
+    outline:0;
+  }
+  .box-register
+  {
+    text-align:center;
+    margin-bottom:0px;
+  }
+  .box-register a
+  {
+    text-decoration:none;
+    font-size:12px;
+    color:#666;
+  }
+  .box-input {
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding-left:10px;
+    border-radius: 5px;
+    width: 325px;
+    height: 50px;
+  }
+  .box-input:focus {
+      outline: none;
+      border-color:#5c7186;
+  }
+  .sucess{
+    text-align: center;
+    color: white;
+  }
+  .sucess a {
+    text-decoration: none;
+    color: #58aef7;
+  }
+  p.errorMessage {
+      background-color: #e66262;
+      border: #AA4502 1px solid;
+      padding: 5px 10px;
+      color: #FFFFFF;
+      border-radius: 3px;
+  }
