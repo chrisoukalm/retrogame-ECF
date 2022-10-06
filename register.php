@@ -1,5 +1,11 @@
 <?php
 require('./config/connexion.php');
+
+//if(!$_SESSION['username']){
+  //header('Location : index.php');
+//}
+
+
 if (isset($_POST['username'], $_POST['email'], $_POST['password'])){
   // récupérer le nom d'utilisateur et supprimer les antislashes ajoutés par le formulaire
   $username = htmlspecialchars($_REQUEST['username']);
@@ -28,11 +34,11 @@ if (isset($_POST['username'], $_POST['email'], $_POST['password'])){
             'password' => $password,
             'username' => $username,
             'grade' => 'CUSTOMER',
-            'token' => bin2hex(openssl_random_pseudo_bytes(64))
-        )
+            'token' => bin2hex(openssl_random_pseudo_bytes(64))));
+          
         
-      );
-
+        
+      header('index.php');
 
         //$query = "INSERT into `client` (username, email, password)
           //    VALUES ('$username', '$email', '".hash('sha256', $password)."')";

@@ -53,9 +53,14 @@ nav{
     font-size: 1.9em;
     color: #16F5B2 ;
 }
+.name-client{
+  font-size: 1.9em;
+  color: #16F5B2 ;
+}
 .logo{
     margin-top: 45px;
 }
+
 /* formulaire login/register */
 
 .box-login-regist {
@@ -131,3 +136,28 @@ nav{
       color: #FFFFFF;
       border-radius: 3px;
   }
+  /*page client */
+  .contenaire-box-center-client{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #75122cf9;
+    width: 1200px;
+    height: 750px;
+    border-radius: 40px;
+    margin-top: 2%;
+    -webkit-text-stroke: 0.5px rgb(11, 11, 11);
+}
+.contenaire-box-center-client p{
+  font-size: 1.9em;
+  color: #16F5B2 ;
+}
+
+.info-client{
+      flex-direction: column;    
+      font-weight: 900;  
+}
+/*carte article */

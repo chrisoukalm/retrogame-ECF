@@ -1,7 +1,13 @@
 <?php 
   require_once('./fram/header.php');
+  
+  //if(!$_SESSION['id']){
+    //header('Location : index.php')
+  //}
+
   if(isset($_GET['login_err'])){
     $err = htmlspecialchars($_GET['login_err']);
+
 
     switch($err)
     {
@@ -29,6 +35,8 @@
         break;
     }
   }
+ 
+  //if(isset($_SESSION['id'])){echo $_SESSION['id']}
 ?>
 <form class="box-login-regist" action="validation.php" method="post" name="login">
 <h1 class="box-logo box-title"><a href="">retrogame</a></h1>

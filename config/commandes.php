@@ -6,9 +6,9 @@ function ajouter($nom,$image,$prix,$description)
     {
         $req = $access->prepare("INSERT INTO produits (image, nom, prix, description) VALUES($image,$nom,$prix,$description)");
 
-        $req->execute(array($nom,$image,$prix,$description));
+        $req -> execute(array($nom,$image,$prix,$description));
 
-        req->closeCursor();
+        $req -> closeCursor();
 
     }
 }
@@ -25,7 +25,7 @@ function afficher()
 
         return $data;
 
-        req->closeCursor();
+        $req->closeCursor();
 
     }
 }
