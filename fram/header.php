@@ -15,9 +15,7 @@
             <il class="log-reg-item"><a href="register.php">Register</a></il>
             <il class="log-reg-item"><a href="login.php">login</a></il>
             <il class="nav-item"><a href="#">Nous Contacter</a></il>
+
             <il class="nav-item"> <a href="#">info sur :<?php echo $data['username'];?></a></il>
-            <?php if(sess){ ?>
-            <il class="nav-item"> <a href="#">info sur :<?php echo $data['username'];?></a></il>    
-           <?php }?>
         </ul>
         </nav>

@@ -17,9 +17,9 @@
       if(password_verify($password, $data['password']))
       {
         echo $_SESSION['username'];
-      /*  $_SESSION['username'] = $data['token'];
+        $_SESSION['username'] = $data['token'];
         header('Location:./index.php');
-        die;*/
+        die;
       }else{ header('Location: login.php?login_err=password'); die(); }
     }else{ header('Location: login.php?login_err=username'); die(); }
   }else{ header('Location: login.php?login_err=noset'); die(); }
