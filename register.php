@@ -1,3 +1,14 @@
+<?php require('./config/session.php');
+require('./fram/header.php') ?>
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>RetroGames</title>
+        <link rel="stylesheet" type="text/css" href="./css/header.css">
+        <meta charset="utf-8"> 
+        <link rel="shortcut icon" href="./img/">
+    </head>
+    <body>
 <?php
 require('./config/connexion.php');
 
@@ -49,7 +60,6 @@ if (isset($_POST['username'], $_POST['email'], $_POST['password'])){
   
 }
 ?>
-<?php require("./fram/header.php")?>
 <form class="box-login-regist" action="" method="post">
   <h1 class="box-logo box-title"><a href="index.php">RetroGame</a></h1>
     <h1 class="box-title">S'inscrire</h1>

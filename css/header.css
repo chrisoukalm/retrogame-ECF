@@ -160,4 +160,12 @@ nav{
       flex-direction: column;    
       font-weight: 900;  
 }
-/*carte article */
+/*contact */
+
+.contenaire-formulaire-contact{
+  border: 1px solid #c4c4c4;
+  padding: 30px 25px 10px 25px;
+  background: rgb(255, 254, 254);
+  margin: 30px auto;
+  width: 370px;
+}
